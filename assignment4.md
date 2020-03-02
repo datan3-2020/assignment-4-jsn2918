@@ -73,7 +73,8 @@ The distribution for income in the survey shows that a majority of respondants h
       geom_smooth(span = 0.1,aes(linetype = sex_dv))+
       xlab("Age") +
       ylab("Monthly earnings") +
-      scale_color_manual(values = "black")
+      scale_color_manual(values = "black")+
+     labs(linetype="Sex")
     ```
 
     ![](assignment4_files/figure-markdown_github/unnamed-chunk-3-1.png)
